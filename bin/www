@@ -27,7 +27,7 @@ var server = http.createServer(app);
  * Listen on provided port, on all network interfaces.
  */
 
-server.listen(port,'https://blooming-anchorage-19233.herokuapp.com');
+server.listen(port,'https://hackgetir.herokuapp.com/');
 server.on('error', onError);
 server.on('listening', onListening);
 
