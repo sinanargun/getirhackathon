@@ -1,0 +1,1 @@
+This is simple request with POST method.
