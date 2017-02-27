@@ -15,10 +15,10 @@ exports.getRecord = function(req,res){
 
   query.exec(function(err,results){
       
-      console.log("Debug:" + results); 
-
+      //console.log("Debug:" + results); 
+      res.send(results);
   }); 
-    res.send(true);
+    
   }
   else{
      res.send(false);
